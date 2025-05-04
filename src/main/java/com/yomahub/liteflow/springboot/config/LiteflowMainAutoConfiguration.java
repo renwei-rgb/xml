@@ -1,0 +1,6 @@
+// ... existing code ...
+@Bean
+public static BeanDefinitionRegistryPostProcessor liteflowBeanPostProcessor() {
+    return new LiteflowBeanPostProcessor();
+}
+// ... existing code ...
